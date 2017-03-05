@@ -1,7 +1,7 @@
 lazy val commonSettings = Seq(
   organization := "pl.zuchos",
   version := "0.0.1-SNAPSHOT",
-  scalaVersion := "2.11.6"
+  scalaVersion := "2.11.8"
 ) ++ Revolver.settings
 
 lazy val root = (project in file("."))
